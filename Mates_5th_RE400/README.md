@@ -16,14 +16,24 @@ sau đó thì exception 0xC0000005 được gọi lần 2, set eip đến hàm s
 hàm này đơn giản kiểm tra array E có = 1 hết không và in ra flag xor-ed với array A.
 
 như vậy, để tìm được 4 argv ta phải giải hệ phương trình
+
 0x33*a0 + 0x7B*b0 + 0x67*c0 + 0xBB*d0 = 0x11F3E
+
 0x33*a1 + 0x7B*b1 + 0x67*c1 + 0xBB*d1 = 0x738F
+
 0x33*a2 + 0x7B*b2 + 0x67*c2 + 0xBB*d2 = 0xDCAC
+
 0x33*a3 + 0x7B*b3 + 0x67*c3 + 0xBB*d3 = 0x2ABD
+
 .
+
 .
+
 .
+
 .
+
 .
+
 
 dùng Z3 ta được 4 argv lần lượt là: 305668685 541343641 24669363 548417709
