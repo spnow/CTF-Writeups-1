@@ -20,6 +20,6 @@ while(count):
 		k += 100
 	else:
 		k -= 1
-	print k,count
+	#print k,count
 	count -= 1
 print k, count, hex(k)
