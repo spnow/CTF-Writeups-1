@@ -22,7 +22,6 @@ des = 0x0E37F550
 ip_list = [1,2,3,4,5,6,7,8,9,10,11,12]
 st_list = [1]*12
 for i in range(12):
-    ok = ip_list[0]
     tmp = ip_list[0]
     for j in ip_list:
         st_list[i] = j
