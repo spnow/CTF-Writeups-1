@@ -1,0 +1,2 @@
+Unpack the program with Scylla and set the IMAGE_DLLCHARACTERISTICS_DYNAMIC_BASE value to 0, then the program will run correctly.
+Reverse the check function with hardcode values in resources file and find the flag.
